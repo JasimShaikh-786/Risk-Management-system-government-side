@@ -270,11 +270,36 @@ with tabs[2]:
         st.latex(r"IRI = (IER \times 0.4) + (BCR \times 0.3) + (DV \times 0.3)")
 
     if not risk_master.empty:
-        st.subheader("⚠️ Infrastructure Stress: Regional Treemap")
-        st.plotly_chart(px.treemap(risk_master, path=[px.Constant("India"), 'state'], values='IER', color='IRI', color_continuous_scale='YlOrRd', template="plotly_dark"), use_container_width=True)
-        st.subheader("🏁 Critical State Ranking")
-        st.plotly_chart(px.bar(risk_master.head(10), x='IRI', y='state', orientation='h', color='IRI', text='Tier', color_continuous_scale='Reds', template="plotly_dark"), use_container_width=True)
+        # 1. ZeroDivisionError se bachne ke liye data filter karein
+        # Treemap sirf unhi states ko dikhayega jahan IER > 0 hai
+        plot_ready_data = risk_master[risk_master['IER'] > 0]
 
+        st.subheader("⚠️ Infrastructure Stress: Regional Treemap")
+        
+        if not plot_ready_data.empty:
+            st.plotly_chart(px.treemap(
+                plot_ready_data, 
+                path=[px.Constant("India"), 'state'], 
+                values='IER', 
+                color='IRI', 
+                color_continuous_scale='YlOrRd', 
+                template="plotly_dark"
+            ), use_container_width=True)
+        else:
+            st.warning("⚠️ Regional Treemap ke liye valid enrolment data (IER > 0) nahi mila.")
+
+        # 2. Bar chart mein filtering ki zaroorat nahi hai, ye waisa hi rahega
+        st.subheader("🏁 Critical State Ranking")
+        st.plotly_chart(px.bar(
+            risk_master.head(10), 
+            x='IRI', 
+            y='state', 
+            orientation='h', 
+            color='IRI', 
+            text='Tier', 
+            color_continuous_scale='Reds', 
+            template="plotly_dark"
+        ), use_container_width=True)
     st.divider()
     st.markdown("### 🔬 State Policy Drilldown")
     d_col1, d_col2 = st.columns([1, 2])

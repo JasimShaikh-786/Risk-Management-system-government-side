@@ -1,6 +1,4 @@
 streamlit
 pandas
-plotly
-glob
+plotly==5.18.0
 numpy
-json

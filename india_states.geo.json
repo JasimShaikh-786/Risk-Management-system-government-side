@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "West_Bengal" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[86.5,21.5],[89.5,21.5],[89.5,27.0],[86.5,27.0],[86.5,21.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Uttar_Pradesh" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.0,24.0],[84.5,24.0],[84.5,30.5],[77.0,30.5],[77.0,24.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Bihar" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[83.0,24.0],[88.0,24.0],[88.0,27.5],[83.0,27.5],[83.0,24.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Rajasthan" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[69.5,23.5],[78.0,23.5],[78.0,30.5],[69.5,30.5],[69.5,23.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Madhya_Pradesh" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[74.0,20.5],[82.0,20.5],[82.0,26.5],[74.0,26.5],[74.0,20.5]]]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": { "NAME_1": "Maharashtra" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[72.0,15.5],[80.5,15.5],[80.5,22.5],[72.0,22.5],[72.0,15.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Gujarat" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[68.0,20.0],[74.5,20.0],[74.5,24.5],[68.0,24.5],[68.0,20.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Karnataka" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[74.0,11.5],[79.5,11.5],[79.5,16.5],[74.0,16.5],[74.0,11.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Tamil_Nadu" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[76.5,8.0],[80.5,8.0],[80.5,13.5],[76.5,13.5],[76.5,8.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Kerala" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[74.5,8.0],[76.5,8.0],[76.5,12.5],[74.5,12.5],[74.5,8.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Andhra_Pradesh" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.0,13.0],[85.0,13.0],[85.0,18.5],[79.0,18.5],[79.0,13.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Telangana" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.5,16.0],[81.5,16.0],[81.5,19.5],[77.5,19.5],[77.5,16.0]]]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": { "NAME_1": "Delhi" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[76.8,28.4],[77.5,28.4],[77.5,28.9],[76.8,28.9],[76.8,28.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Odisha" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[82.0,18.5],[87.5,18.5],[87.5,22.5],[82.0,22.5],[82.0,18.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Jharkhand" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[83.0,22.0],[87.0,22.0],[87.0,25.5],[83.0,25.5],[83.0,22.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Chhattisgarh" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[80.0,18.5],[84.5,18.5],[84.5,23.5],[80.0,23.5],[80.0,18.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Punjab" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.5,29.5],[76.5,29.5],[76.5,32.5],[73.5,32.5],[73.5,29.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "NAME_1": "Haryana" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[74.0,27.5],[77.0,27.5],[77.0,30.5],[74.0,30.5],[74.0,27.5]]]
+      }
+    }
+  ]
+}

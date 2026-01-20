@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+glob
+os
+numpy
+json
+time
